@@ -1,0 +1,12 @@
+<body>
+	<h1 id = "res"> </h1>
+	<script>
+		function showClock(){
+		var d = new Date();
+		var res = document.getElementById('res');
+		res.innerHTML = d.toLocaleTimeString();
+		}
+		setInterval(showClock, 1000);
+		</script>
+		</body>
+		
